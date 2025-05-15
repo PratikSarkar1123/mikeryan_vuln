@@ -62,6 +62,7 @@ if required
 2) BadStore
 
 	sudo docker pull jvhoof/badstore-docker
+
 	sudo docker run -d -p 80:80 jvhoof/badstore-docker
 
 	http://localhost
