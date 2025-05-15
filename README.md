@@ -22,6 +22,9 @@ sudo docker rm (conatiner_name) ]
 
 	sudo docker run -d -p 3000:3000 --name juice-shop bkimminich/juice-shop
 
+	http://localhost:3000
+
+
 
 Vulnerability 
 
