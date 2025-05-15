@@ -158,6 +158,7 @@ vulnerability
 
 
 docker pull raesene/bwapp
+
 docker run -d -p 8080:80 raesene/bwapp
 
 in browser 
