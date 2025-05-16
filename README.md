@@ -4,12 +4,12 @@ install docker
 
 https://docs.docker.com/engine/install/debian/
 
+sudo docker ps [to view running docker process]
 
 [if there is an error like docker already running 
 
 then run command 
 sudo docker stop (container_name)
-
 if required 
 sudo docker rm (conatiner_name) ]
 
