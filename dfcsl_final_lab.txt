@@ -1,0 +1,48 @@
+OLETOOLS install 
+
+python3 -m venv ~/venv
+source ~/venv/bin/activate
+pip install oletools
+
+FIrefox decrypt install
+
+git clone https://github.com/unode/firefox_decrypt.git
+cd firefox_decrypt
+
+[python3 firefox_decrypt/firefox_decrypt.py ~/.mozilla/firefox/yx20ve8t.default-esr]
+
+-- $ sqlitebrowser ~/Desktop/Firefox/Firefox/Profiles/s6upyldt.default-release/places.sqlite
+
+
+
+to download registry explorer and kape , use eric Zimmerman tool
+
+1) ftk imager 
+
+
+**to find hash 
+- click on the image 
+- properties (bottom left corner) and search 
+
+**to find parent path 
+-eg for MFT , click mft 
+-below data , copy all and right click , save selection 
+-save in one folder 
+-install MFTECmd from eric Zimmerman tools 
+-now use the command in windows power shell
+
+PS C:\Users\sarka\Downloads\MFTECmd> .\MFTECmd.exe -f "C:\Users\sarka\OneDrive\Desktop\II Sem\DFSCL\241059011_LAB_7\file" --csv "C:\Users\sarka\OneDrive\Desktop\II Sem\DFSCL\241059011_LAB_7\out" --csvf Myoutput.csv
+
+[File path will vary according to where you have saved the mft data]
+
+**To find volume serial number of boot 
+-click $boot
+-below data , copy all and right click , save selection 
+-save in one folder 
+-in windows power shell
+
+PS C:\Users\sarka\Downloads\MFTECmd> .\MFTECmd.exe -f "C:\Users\sarka\OneDrive\Desktop\II Sem\DFSCL\241059011_LAB_7\boot\boot" --csv "C:\Users\sarka\Downloads\MFTECmd\output"
+
+
+2) Autopsy 
+
