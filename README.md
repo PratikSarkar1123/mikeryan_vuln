@@ -14,7 +14,7 @@ if required
 sudo docker rm (conatiner_name) ]
 
 
-1) Juice Shop 
+# 1) Juice Shop 
 
 	install docker 
 
@@ -59,7 +59,7 @@ if required
 
 
 
-2) BadStore
+# 2) BadStore
 
 	sudo docker pull jvhoof/badstore-docker
 
@@ -108,7 +108,7 @@ vulnerability
 
 
 
-3) XVWA
+# 3) XVWA
 
 
 download iso file 
@@ -158,7 +158,7 @@ vulnerability
 
 
 
-4) BWAPP
+# 4) BWAPP
 
 
 docker pull raesene/bwapp
